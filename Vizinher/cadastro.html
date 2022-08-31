@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="shortcut icon" href="2.ico" type="image/x-icon">
+    <title>Vizinher</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1><a>Vizinher</a></h1>
+        <img id="vizinher-logo" src="2.ico">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="ajuda.html">Ajuda</a>
+            <a href="transparencia.html">Transparência</a>
+            <a href="contato.html">Contato</a>
+            <button class="black-btn"><a href="Login/login.html">Login</a></button>
+           
+        </nav>
+    </header>
+   
+
+    <main> 
+
+            <div class="square">
+                    
+                    <form>
+                        <span class="form-title">Cadastre-se</span>
+                        <div class="form-field">O cadastro será feito com CPF ou CPNJ?</div>
+                        <div class="id">
+                            <input type="radio" id="cpf" name="cpf">
+                            <label for="cpf">CPF</label>
+                            <input type="radio" id="cnpj" name="cnpj">
+                            <label for="cnpj">CNPJ</label></div>
+
+                        <div class="form-field">
+                            <label for="firstname">Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Insira seu primeiro nome" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Insira seu sobrenome" required>
+                        </div>
+
+                        <div class="form-field">
+                        <label for="cpfcnpj">CPF/CNPJ</label>
+                        <input id="cpfcnpj" type="text" name="cpfcnpj" placeholder="Insira seu CPF/CNPJ (apenas números)" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Insira seu e-mail" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="Confirmpassword">Confirmar senha</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div class="form-field">
+                    <span class="caption-text"><a href="recuperacao-senha.html">Já possui uma conta? Clique aqui.</a></span></div>
+                    <button class="black-btn">Cadastrar</button>
+                    
+                    </form>
+
+            </div>
+        </div>
+             
+
+
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Maria Eduarda, Tainá Sofia e Yasmim.</p>
+    </footer>
+
+
+
+                
+    
+</body>
+</html>

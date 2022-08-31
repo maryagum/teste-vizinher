@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+h2{
+    font-weight: 500;
+}
+
+
+.circles{
+    display: flex;
+    padding-bottom: 70px;
+    
+}
+
+.quadrado{
+    background-color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    font-weight: 500;
+}
+
+.article-img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    
+}
+
+article{
+    text-align: center;
+    padding: 30px;
+    border: 10px;
+    margin: auto;
+    width: 40%;
+}
+
+html{
+    height: 100%;
+}
+
+main{
+    animation: transitionIn 0.75s;
+}
+
+#vizinher-logo{
+    margin: auto;
+    width: 5%;
+    display: inline;
+    padding-top: 8px;
+}
+
+header > h1{
+    display: inline;
+    margin: auto;
+}
+
+body{
+    background-image: linear-gradient(117.91deg, #FFADAD , #ffd6e0,
+     #F2FF9F , #c1fba4, #90f1ef );
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+
+nav{
+    margin: auto;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+
+/*nav > a : indica que todos os links dentro de nav serao alterados*/
+nav > a{
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+h1{
+    font-family: 'Zilla Slab';
+    font-size: 65px;
+    margin: auto;
+}
+
+button > a{
+    text-decoration: none;
+
+}
+
+
+.vizinher-title{
+    font-family: 'Zilla Slab';
+    background-image: linear-gradient(to bottom, #FFADAD, #ffd6e0);
+    
+  
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+  
+}
+
+.text-box{
+    margin: auto;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+#white-box{
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    width: 70%;
+
+}
+
+#megafone{
+    width: 40%;
+    margin: auto;
+    transform: scaleX(-1);
+    
+}
+
+.black-btn{
+    background-color: black;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    color: white;
+}
+
+.black-btn > a{
+    color: white;
+}
+
+.white-btn{
+    background-color: transparent;
+    border: 1px solid #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+
+}
+
+.white-btn > a{
+    color: black;
+}
+
+.white-btn:hover{
+    background-color: black;
+    border: 1px solid #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 50px;
+    transition: 0.5s;
+    margin: auto;
+
+}
+
+.white-btn:hover > a{
+    color: white;
+}
+
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px;
+    border: 5px;
+    
+}
